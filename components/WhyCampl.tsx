@@ -1,5 +1,5 @@
 const WhyCampl = () => (
-  <div className="bg-gray-950 py-16 px-80 text-white">
+  <div className="bg-gray-950 py-16 md:px-48 xxl:px-80 text-white">
     <h1 className="text-5xl">Why CaMPL ?</h1>
     <div className="flex justify-between pt-16">
       {["feature 1", "feature 2", "feature 3", "feature 4"].map((f, i) => (

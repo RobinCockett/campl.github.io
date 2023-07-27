@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ExamplesOfUsage = () => (
   <div className="py-16 px-80">
     <h1 className="text-5xl">Examples</h1>
@@ -6,7 +8,7 @@ const ExamplesOfUsage = () => (
         <div
           key={f}
           className={
-            "text-center w-1/2 border-2 border-gray-50 rounded-lg hover:shadow-2xl cursor-pointer p-4 " +
+            "text-center w-1/2 border-2 border-gray-100 rounded-lg hover:shadow-2xl cursor-pointer p-4 " +
             (i === 4 ? "mr-0" : "mr-16")
           }
         >
@@ -21,9 +23,9 @@ const ExamplesOfUsage = () => (
           {f}
           <br />
           some explanation about this feature bla bla bla
-          <button className="border-2 border-gray-800 block mx-auto rounded-lg px-16 py-2 my-8 ">
-            read more ...{" "}
-          </button>
+          <Link href={"/examples"} className="border-2 border-gray-800 block mx-auto rounded-lg px-16 py-2 my-8 ">
+            Read More ...{" "}
+          </Link>
         </div>
       ))}
     </div>
