@@ -6,8 +6,9 @@ const Intro = () => (
       <div className="pr-16 w-1/2">
         <h1 className="text-8xl">CaMPL</h1>
         <p className="text-2xl mb-16">
-          some short explanations for cample, some short explanations for cample
-          some short explanations for cample, some short explanations for cample
+          The <span className="font-bold">Ca</span>tegorical <span className="font-bold">M</span>essage <span className="font-bold">P</span>assing 
+            <span className="font-bold"> L</span>anguage is a typed functional-style concurrent language in which processes communicate by sending messages on channels.<br /><br />
+          The Semantics of CaMPL is based on the categorical theory of message passing.
         </p>
         <Link
           href="/install"
