@@ -1,8 +1,8 @@
 const Footer = () => (
-  <div className=" bg-gray-900 w-full px-80 pb-24 pt-4 text-white">
-    developed by ....
+  <div className=" bg-gray w-full px-80 pb-24 pt-4 text-white">
+    Developed by Programmin Langauges Lab @ University of Calgary
     <br />
-    and some other information like contact info ...
+    email: robin@ucalgary.ca
   </div>
 );
 

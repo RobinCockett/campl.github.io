@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Memory Cell",
+    "image": "memorycell.png",
+    "desc": "Memorycell is a way of handling something in campl",
+    "href": "/examples/memorycell"
+  },
+  {
+    "title": "Timer",
+    "image": "timer.png",
+    "desc": "Timer in Campl",
+    "href": "/examples/memorycell"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "image": "timer.png",
+    "desc": "Timer in Campl",
+    "href": "/examples/memorycell"
+  },
+  {
+    "title": "Ticket Booking",
+    "image": "timer.png",
+    "desc": "Timer in Campl",
+    "href": "/examples/memorycell"
+  },
+  {
+    "title": "Voting System",
+    "image": "timer.png",
+    "desc": "Timer in Campl",
+    "href": "/examples/memorycell"
+  }
+]

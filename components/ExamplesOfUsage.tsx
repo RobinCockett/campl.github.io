@@ -1,32 +1,29 @@
+import Image from "next/image";
 import Link from "next/link";
+import examplesData from "../data/Examples.json";
 
 const ExamplesOfUsage = () => (
-  <div className="py-16 px-80">
+  <div className="py-16 md:px-48 xxl:px-80">
     <h1 className="text-5xl">Examples</h1>
-    <div className="flex justify-between pt-16">
-      {["Usage 1", "Usage 2"].map((f, i) => (
-        <div
-          key={f}
+    <div className="flex justify-center pt-16 mx-16">
+      {examplesData.slice(0, 2).map(({ title, image, desc, href }, i) => (
+        <Link
+          key={title}
+          href={href}
           className={
-            "text-center w-1/2 border-2 border-gray-100 rounded-lg hover:shadow-2xl cursor-pointer p-4 " +
+            "text-center w-1/2 border-2 border-light_green rounded-lg hover:shadow-2xl cursor-pointer p-4 " +
             (i === 4 ? "mr-0" : "mr-16")
           }
         >
-          <div className="bg-black text-white text-left p-8 shadow-sm">
-            <code>
-              sample code sample code sample code sample code sample code sample
-              code sample code sample codesample code sample code sample code
-              sample codesample code sample code sample code sample code
-            </code>
+          <div className="relative h-96 mb-4">
+            <Image alt="example" fill src={"./" + image} />
           </div>
-          <div className="border-4 border-white my-4"></div>
-          {f}
-          <br />
-          some explanation about this feature bla bla bla
-          <Link href={"/examples"} className="border-2 border-gray-800 block mx-auto rounded-lg px-16 py-2 my-8 ">
+          <h2 className="text-xl font-bold">{title}</h2>
+          <p>{desc}</p>
+          <div className="bg-green text-white block mx-auto rounded-lg px-16 py-2 mt-4">
             Read More ...{" "}
-          </Link>
-        </div>
+          </div>
+        </Link>
       ))}
     </div>
   </div>
