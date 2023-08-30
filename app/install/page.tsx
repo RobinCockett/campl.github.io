@@ -15,7 +15,7 @@ export default function Home() {
         <h3>2. Add campl to your PATH variable:</h3>
         <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll mb-8">
           <code>
-            &gt; $ export PATH="$HOME/.campl/bin:$PATH"
+            &gt; $ export PATH=&quot;$HOME/.campl/bin:$PATH&quot;
           </code>
         </div>
         <h2>Run Your Program: </h2>
