@@ -18,7 +18,7 @@ export default function Home() {
             </Link>
           ))}
           <a
-            href={"https://github.com/campl-ucalgary/campl"}
+            href={"https://github.com/campl-ucalgary/campl/tree/main/MPLCLI/examples"}
             className="mr-4 mt-4 bg-light_green rounded-lg p-16 hover:shadow-md"
           >
             <h2>More Examples On Github</h2>
