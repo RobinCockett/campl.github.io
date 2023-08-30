@@ -5,7 +5,7 @@ import examplesData from "../data/Examples.json";
 const ExamplesOfUsage = () => (
   <div className="py-16 md:px-48 xxl:px-80">
     <h1 className="text-5xl">Examples</h1>
-    <div className="flex justify-center pt-16 mx-16">
+    <div className="flex justify-center pt-16 xl:mx-16">
       {examplesData.slice(0, 2).map(({ title, image, desc, href }, i) => (
         <Link
           key={title}
