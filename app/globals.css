@@ -31,21 +31,25 @@
     }
   }
 
+  body {
+    @apply text-gray;
+  }
   h1,
   h2,
   h3,
   h4,
   h5,
-  h6,
-  p,
-  li {
-    @apply text-gray;
+  h6 {
+    @apply font-bold;
   }
   h1 {
-    @apply text-5xl font-bold;
+    @apply text-5xl;
   }
   h2 {
-    @apply text-3xl font-bold;
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
   }
   a {
     @apply hover:text-green;
