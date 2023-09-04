@@ -36,7 +36,7 @@ const Intro = () => (
         </Link>
       </div>
 
-      <div className="relative text-center md:w-2/5 w-full md:mt-0 mt-10 h-80 self-center">
+      <div className="relative text-center md:mt-0 mt-10 self-center h-128 w-full md:w-2/5">
         <Image src={"/code-2.png"} alt="campl-helloworld" fill />
       </div>
     </div>
