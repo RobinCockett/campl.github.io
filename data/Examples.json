@@ -2,19 +2,19 @@
   {
     "title": "Tic Tac Toe",
     "image": "timer.png",
-    "desc": "Timer in Campl",
+    "desc": "A classical tic tac toe game meant to be played by two different players.",
     "href": "/examples/tictactoe"
   },
   {
     "title": "Ticket Booking",
     "image": "timer.png",
-    "desc": "Timer in Campl",
+    "desc": "A system for booking seats of a theater. Illustrates controled non-determinism using races. ",
     "href": "/examples/ticketbooking"
   },
   {
     "title": "Voting System",
     "image": "timer.png",
-    "desc": "Timer in Campl",
+    "desc": "Illustrattes timeout, races and mutual exclusion (to avoid duplicate votes).",
     "href": "/examples/votingsystem"
   }
 ]
