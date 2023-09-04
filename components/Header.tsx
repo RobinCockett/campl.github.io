@@ -9,7 +9,7 @@ const Header = () => (
     <div className="self-center text-jet ">
       {[
         { title: "Installation", ref: "/install" },
-        { title: "Documentations", ref: "/docs" },
+        { title: "Documents", ref: "/docs" },
         { title: "Examples", ref: "/examples" },
         {
           title: "Github",

@@ -8,8 +8,8 @@
     "desc": "Pure CaMPL is deadlock and livelock free and guaranties progress."
   },
   {
-    "title": "Control Non-Determinism",
-    "desc": "CaMPL has races which allow non-determinstic concurrent behaviour"
+    "title": "Controled Non-Determinism",
+    "desc": "CaMPL has races which allow non-determinstic concurrent behaviour."
   },
   {
     "title": "Sequential Data",

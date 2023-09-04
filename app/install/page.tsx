@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <div className="md:px-48 h-screen my-32 xxl:px-80">
         <h1 className="mb-8">Installation</h1>
-        <h2>Pre-Requistics:</h2>
+        <h2>Pre-prerequisites:</h2>
         <p className="mt-2">You need to have stack and alacritty terminal installed.</p>
         <h2 className="my-8">Installation Process:</h2>
         <h3>1. Download the installation script and run it:</h3>
