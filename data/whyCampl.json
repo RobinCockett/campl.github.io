@@ -9,7 +9,7 @@
   },
   {
     "title": "Controled Non-Determinism",
-    "desc": "CaMPL has races which allow non-determinstic concurrent behaviour."
+    "desc": "CaMPL has races which allow non-deterministic concurrent behaviour."
   },
   {
     "title": "Sequential Data",
