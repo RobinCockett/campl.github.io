@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      <div className="md:px-48 h-screen my-32 xxl:px-80">
+      <div className="h-screen my-32 lg:px-48 md:px-32 sm:px-20 px-10 xxl:px-80">
         <h1 className="mb-8">Installation</h1>
         <h2>Pre-prerequisites:</h2>
         <p className="mt-2">You need to have stack and alacritty terminal installed.</p>

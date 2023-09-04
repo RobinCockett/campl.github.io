@@ -3,16 +3,17 @@ import Image from "next/image";
 
 const Intro = () => (
   <div>
-    <div className="flex mx-auto mt-32 my-16 md:px-48 xxl:px-80">
-      <div className="pr-20 w-1/2">
+    <div className="md:flex-row flex flex-col justify-between mx-auto mt-32 my-16 lg:px-48 md:px-32 sm:px-20 px-10 xxl:px-80">
+      <div className="md:w-1/2">
         <div className="flex mb-4">
-          <Image
-            alt="campl-logo"
-            src="/LOGO-final.png"
-            width={100}
-            height={100}
-            className=" inline"
-          />
+          <div className="relative w-24 h-32">
+            <Image
+              alt="campl-logo"
+              src="/LOGO-final.png"
+              fill
+              className=" inline"
+            />
+          </div>
           <h1 className="text-8xl text-green self-end">aMPL</h1>
         </div>
         <p className="text-2xl mb-16">
@@ -35,13 +36,9 @@ const Intro = () => (
         </Link>
       </div>
 
-      <Image
-        src={"/code-2.png"}
-        alt="campl-helloworld"
-        className="pl-8"
-        width={600}
-        height={250}
-      />
+      <div className="relative text-center md:w-2/5 w-full md:mt-0 mt-10 h-80 self-center">
+        <Image src={"/code-2.png"} alt="campl-helloworld" fill />
+      </div>
     </div>
   </div>
 );

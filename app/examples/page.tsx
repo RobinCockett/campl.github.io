@@ -4,7 +4,7 @@ import examplesData from "../../data/Examples.json";
 export default function Home() {
   return (
     <main>
-      <div className="md:px-48 h-screen xxl:px-80 my-32">
+      <div className="h-screen my-32 lg:px-48 md:px-32 sm:px-20 px-10 xxl:px-80">
         <h1 className="mb-4">Examples</h1>
         <div className="grid grid-cols-2 justify-start">
           {examplesData.map(({ title, desc, href }, i) => (
