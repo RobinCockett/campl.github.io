@@ -8,7 +8,7 @@ const Intro = () => (
         <div className="flex mb-4">
           <Image
             alt="campl-logo"
-            src="/LOGO223.png"
+            src="/LOGO-final.png"
             width={100}
             height={100}
             className=" inline"

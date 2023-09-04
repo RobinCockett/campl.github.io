@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => (
   <div className="bg-white shadow-md fixed top-0 w-full px-32 py-2 flex text-white justify-between">
     <Link href="/">
-      <Image alt="campl-logo" src="/LOGO223.png" width={50} height={50} />
+      <Image alt="campl-logo" src="/LOGO-final.png" width={50} height={50} />
     </Link>
     <div className="self-center text-jet ">
       {[
