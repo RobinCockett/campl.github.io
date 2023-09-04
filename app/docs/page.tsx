@@ -10,19 +10,34 @@ export default function Home() {
           <ul className="mt-16">
             <li className="flex mt-2">
               <FaFile className=" self-center mr-2 text-green" />
-              <a href="https://pages.cpsc.ucalgary.ca/~robin/Theses/PrashantKumar.pdf">
-                Implementing Message Passing Language (MPL) (by Prashant Kumar)
+              <a
+                target="_blank"
+                href="https://github.com/campl-ucalgary/campl/blob/main/resources/502.02A_interim_pon.pdf"
+              >
+                Implementation Status of CaMPL (by Jared Pon)
               </a>
             </li>
             <li className="flex mt-2">
               <FaFile className=" self-center mr-2 text-green" />
-              <a href="https://github.com/campl-ucalgary/campl/blob/main/resources/ProgressForMPL.pdf">
+              <a
+                target="_blank"
+                href="https://pages.cpsc.ucalgary.ca/~robin/Theses/PrashantKumar.pdf"
+              >
+                Implementing Message Passing Language (by Prashant Kumar)
+              </a>
+            </li>
+            <li className="flex mt-2">
+              <FaFile className=" self-center mr-2 text-green" />
+              <a
+                target="_blank"
+                href="https://github.com/campl-ucalgary/campl/blob/main/resources/ProgressForMPL.pdf"
+              >
                 Progress For The Message Passing Logic (by Reginald Lybbert)
               </a>
             </li>
             <li className="flex mt-2">
               <FaFile className=" self-center mr-2 text-green" />
-              <a href="https://arxiv.org/pdf/math/0703713.pdf">
+              <a target="_blank" href="https://arxiv.org/pdf/math/0703713.pdf">
                 The Logic of Message Passing (by Robin Cockett and Craig Pastro)
               </a>
             </li>
