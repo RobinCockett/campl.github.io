@@ -32,7 +32,7 @@ export default function Home() {
         </p>
 
         <h2 className="my-8">Installation Process:</h2>
-        <h3>1. Download the installation script and run it:</h3>
+        <h3>1. Download the installation script and run it by running the command below in your terminal:</h3>
         <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll mb-8">
           <code>
             &gt; $ mkdir ~/.campl && cd ~/.campl && curl -LJO
