@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <main>
-      <div className="h-screen my-32 lg:px-48 md:px-32 sm:px-20 px-10 xxl:px-80">
+      <div className="min-h-screen my-32 lg:px-48 md:px-32 sm:px-20 px-10 xxl:px-80">
         <h1 className="mb-8">Installation</h1>
         <h2>Prerequisites:</h2>
         <p className="my-2">
-          For installing CaMPL, you need to have stack and alacritty terminal
+          For installing CaMPL, you need to have a unix based operating system with stack and alacritty terminal
           installed.
         </p>
         <p>
@@ -47,6 +47,14 @@ export default function Home() {
         <h2>Run Your Program: </h2>
         <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll">
           <code>&gt; $ stack exec -- mpl --run YOUR_PROGRAM.mpl</code>
+        </div>
+        <p>You can also creat an alias:</p>
+        <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll">
+          <code>&gt; $ alias campl=stack exec -- mpl --run</code>
+        </div>
+        <p>and then run your program using:</p>
+        <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll">
+          <code>&gt; $ campl YOUR_PROGRAM.mpl</code>
         </div>
       </div>
     </main>

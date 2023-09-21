@@ -21,6 +21,15 @@ export default function Home() {
               <FaFile className=" self-center mr-2 text-green" />
               <a
                 target="_blank"
+                href="https://github.com/campl-ucalgary/campl/blob/main/resources/JaredPon_final_report.pdf"
+              >
+                Redesgining the abstract machine for CaMPL (by Jared Pon)
+              </a>
+            </li>
+            <li className="flex mt-2">
+              <FaFile className=" self-center mr-2 text-green" />
+              <a
+                target="_blank"
                 href="https://pages.cpsc.ucalgary.ca/~robin/Theses/PrashantKumar.pdf"
               >
                 Implementing Message Passing Language (by Prashant Kumar)
