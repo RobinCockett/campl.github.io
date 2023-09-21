@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <p>You can also creat an alias:</p>
         <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll">
-          <code>&gt; $ alias campl=stack exec -- mpl --run</code>
+          <code>&gt; $ alias campl=&lsquo;stack exec -- mpl --run&rsquo; </code>
         </div>
         <p>and then run your program using:</p>
         <div className="mt-4 p-8 inline-block bg-neutral-200 rounded overflow-x-scroll">
