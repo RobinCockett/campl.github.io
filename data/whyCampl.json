@@ -8,7 +8,7 @@
     "desc": "Pure CaMPL is deadlock and livelock free and guaranties progress."
   },
   {
-    "title": "Controled Non-Determinism",
+    "title": "Controlled Non-Determinism",
     "desc": "CaMPL has races which allow non-deterministic concurrent behaviour."
   },
   {
